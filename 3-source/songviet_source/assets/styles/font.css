@@ -1,0 +1,112 @@
+﻿/*===============================*/
+@font-face {
+  font-family: 'UTM Avo';
+  src: url('../fonts/UTM Avo.eot');
+  src: url('../fonts/UTM Avo.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/UTMAvo.woff') format('woff'),
+       url('../fonts/UTMAvo.ttf') format('truetype'),
+       url('../fonts/UTMAvo.svg#UTMAvo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UTM Androgyne';
+  src: url('../fonts/UTM Androgyne.eot');
+  src: url('../fonts/UTM Androgyne.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/UTMAndrogyne.woff') format('woff'),
+       url('../fonts/UTMAndrogyne.ttf') format('truetype'),
+       url('../fonts/UTMAndrogyne.svg#UTMAndrogyne') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UTM AvoBold';
+  src: url('../fonts/UTM AvoBold.eot');
+  src: url('../fonts/UTM AvoBold.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/UTMAvoBold.woff') format('woff'),
+       url('../fonts/UTMAvoBold.ttf') format('truetype'),
+       url('../fonts/UTMAvoBold.svg#UTMAvoBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.woff') format('woff'),
+       url('../fonts/Roboto-Regular.ttf') format('truetype'),
+       url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+       url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.woff') format('woff'),
+       url('../fonts/Roboto-Bold.ttf') format('truetype'),
+       url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg'),
+       url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINEngschriftStd';
+  src: url('../fonts/DINEngschriftStd.eot');
+  src: url('../fonts/DINEngschriftStd.woff') format('woff'),
+       url('../fonts/DINEngschriftStd.ttf') format('truetype'),
+       url('../fonts/DINEngschriftStd.svg#DINEngschriftStd') format('svg'),
+       url('../fonts/DINEngschriftStd.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../fonts/UTM BryantLG.eot');
+  src: url('../fonts/UTM BryantLG.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/UTMBryantLG.woff') format('woff'),
+       url('../fonts/UTMBryantLG.ttf') format('truetype'),
+       url('../fonts/UTMBryantLG.svg#UTMBryantLG') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UTM Eremitage';
+  src: url('../fonts/UTM Eremitage.eot');
+  src: url('../fonts/UTM Eremitage.eot?#iefix') format('embedded-opentype');
+   src: url('../fonts/UTMEremitage.woff') format('woff'),
+       url('../fonts/UTMEremitage.ttf') format('truetype'),
+       url('../fonts/UTMEremitage.svg#UTMEremitage') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UTM BryantLG_F';
+  src: url('../fonts/UTM BryantLG_F.eot');
+  src: url('../fonts/UTM BryantLG_F.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/UTMBryantLGBold.woff') format('woff'),
+       url('../fonts/UTMBryantLGBold.ttf') format('truetype'),
+       url('../fonts/UTMBryantLGBold.svg#UTMBryantLGBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.woff') format('woff'),
+       url('../fonts/Roboto-Light.ttf') format('truetype'),
+       url('../fonts/Roboto-Light.svg#Roboto-Light') format('svg'),
+       url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
