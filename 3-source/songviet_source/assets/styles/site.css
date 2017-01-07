@@ -1218,6 +1218,10 @@ body .mobilep-right {
   position: relative;
   width: 360px;
 }
+.content_pro_img img{
+    width: 100%;
+    display: block;
+}
 .content_pro_tit {
   display: inline-block;
   float: right;

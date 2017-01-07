@@ -9,8 +9,7 @@
     <div class="container">
         <div class="product-main">
             <div class="title-main">
-                <h1>
-                    sản phẩm</h1>
+                <h1>sản phẩm</h1>
             </div>
             <div class="product-tb">
                 <asp:ListView ID="lstProducts" runat="server" DataSourceID="odsProducts" EnableModelValidation="True">
@@ -32,8 +31,7 @@
                                 </div>
                             </div>
                             <div class="view-detail">
-                                <a href='<%# progressTitle(Eval("ProductName")) + "-pci-" + Eval("CategoryID") + "-pi-" + Eval("ProductID") + ".aspx" %>'>
-                                    Chi tiết</a>
+                                <a href='<%# progressTitle(Eval("ProductName")) + "-pci-" + Eval("CategoryID") + "-pi-" + Eval("ProductID") + ".aspx" %>'>Chi tiết</a>
                             </div>
                         </div>
                     </ItemTemplate>
@@ -44,8 +42,8 @@
                 <asp:ObjectDataSource ID="odsProducts" runat="server" SelectMethod="ProductSelectAll"
                     TypeName="TLLib.Product">
                     <SelectParameters>
-                        <asp:Parameter DefaultValue="1" Name="StartRowIndex" Type="String" />
-                        <asp:Parameter DefaultValue="4" Name="EndRowIndex" Type="String" />
+                        <asp:Parameter Name="StartRowIndex" Type="String" />
+                        <asp:Parameter Name="EndRowIndex" Type="String" />
                         <asp:Parameter Name="Keyword" Type="String" />
                         <asp:Parameter Name="ProductName" Type="String" />
                         <asp:Parameter Name="Description" Type="String" />
@@ -68,6 +66,28 @@
                         <asp:Parameter DefaultValue="True" Name="SortByPriority" Type="String" />
                     </SelectParameters>
                 </asp:ObjectDataSource>
+                <div class="pager">
+                    <%--<a href="#" class="first fa fa-backward"></a><a href="#" class="prev fa fa-caret-left">
+        </a><a href="#" class="current">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#"
+            class="next fa fa-caret-right"></a><a href="#" class="last fa fa-forward"></a>--%>
+                    <asp:DataPager ID="DataPager1" runat="server" PageSize="12" PagedControlID="lstProducts">
+                        <Fields>
+                            <asp:NextPreviousPagerField ButtonType="Link" ShowFirstPageButton="true" ShowNextPageButton="false"
+                                ShowPreviousPageButton="false" ButtonCssClass="first fa fa-backward" RenderDisabledButtonsAsLabels="true"
+                                FirstPageText="" />
+                            <asp:NextPreviousPagerField ButtonType="Link" ShowFirstPageButton="false" ShowNextPageButton="false"
+                                ShowPreviousPageButton="true" ButtonCssClass="prev fa fa-caret-left" RenderDisabledButtonsAsLabels="true"
+                                PreviousPageText="" />
+                            <asp:NumericPagerField ButtonCount="5" NumericButtonCssClass="numer-paging" CurrentPageLabelCssClass="current" />
+                            <asp:NextPreviousPagerField ButtonType="Link" ShowLastPageButton="false" ButtonCssClass="next fa fa-caret-right"
+                                ShowNextPageButton="true" ShowPreviousPageButton="false" RenderDisabledButtonsAsLabels="true"
+                                NextPageText="" />
+                            <asp:NextPreviousPagerField ButtonType="Link" ShowLastPageButton="True" ButtonCssClass="last fa fa-forward"
+                                ShowNextPageButton="false" ShowPreviousPageButton="false" RenderDisabledButtonsAsLabels="true"
+                                LastPageText="" />
+                        </Fields>
+                    </asp:DataPager>
+                </div>
             </div>
         </div>
     </div>
