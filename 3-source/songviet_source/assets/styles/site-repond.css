@@ -231,8 +231,14 @@
 }
 @media (max-width: 479px)
 {
-   
-   
+    .project-list ul li a {
+        font-size:13px;
+        padding:15px;
+    }
+    .project-list ul li:hover a {
+        background:#ff6a00;
+        padding-left:15px;
+    }
 }
 @media (max-width: 500px) {
     .popup .popup-content {
@@ -275,6 +281,12 @@
     }
      .popup .popup-content {
         width:85%;
+    }
+
+     .project-list ul li a {
+        font-size:11px;
+        padding:15px;
+        line-height:35px;
     }
 }
 @media (max-width: 359px)
