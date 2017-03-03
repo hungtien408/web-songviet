@@ -2,7 +2,7 @@
 }
 (function ($) {
     $(window).load(function () {
-        height_popup()
+        height_popup();
     });
     $(window).resize(function () {
         height_popup()
@@ -12,6 +12,7 @@
         mypageload();
     });
 })(jQuery);
+
 //function===============================================================================================
 /*=============================fun=========================================*/
 function myfunload() {

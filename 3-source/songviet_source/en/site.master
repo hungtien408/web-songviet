@@ -104,6 +104,8 @@
                                 <li><a href="~/en/" runat="server">Home</a></li>
                                 <li><a href="san-pham.aspx">Products</a></li>
                                 <li><a href="du-an.aspx">Projects</a> </li>
+                                <li><a href="dich-vu.aspx">Services</a></li>
+                                <li><a href="tin-tuc.aspx">News</a></li>
                                 <li><a href="tuyen-dung.aspx">Career</a></li>
                                 <li><a href="lien-he.aspx">Contact</a></li>
                             </ul>

@@ -142,6 +142,22 @@
     #header .language {
         top: 110%;
     }
+    /**/
+    .tintuc-wrap .main-tintuc {
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+    }
+    .tintuc-wrap .more-tintuc {
+        width:100%;
+        border-left:0;
+        padding:0;
+    }
+    .tintuc-wrap .bot-wrap .item {
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+    }
 }
 @media (max-width: 960px) {
    
@@ -238,6 +254,14 @@
     .project-list ul li:hover a {
         background:#ff6a00;
         padding-left:15px;
+    }
+    /**/
+    .tintuc-wrap .bot-wrap .item .img {
+        width:100%;
+    }
+    .tintuc-wrap .bot-wrap .item .content {
+        width:100%;
+        padding-left:0;
     }
 }
 @media (max-width: 500px) {

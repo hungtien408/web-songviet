@@ -1638,3 +1638,105 @@ body .mobilep-right {
     top: 30%;
     z-index: 9999;
 }
+/**/
+.tintuc-wrap .main-tintuc {
+    width:60%;
+    float:left;
+    padding:25px;
+}
+.tintuc-wrap .more-tintuc {
+    width:40%;
+    float:right;
+    padding:25px;
+    border-left:1px solid #ccc;
+}
+.tintuc-wrap .main-tintuc .img img {
+    max-width:100%;
+    display:block;
+    margin:0 auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+.tintuc-wrap .main-tintuc .content > a{
+    color:#1b1b1b;
+    transition:all 0.5s ease;
+    font-size:16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:5px 0;
+}
+.tintuc-wrap .main-tintuc > a:hover {
+    color:red;
+}
+.tintuc-wrap .main-tintuc .read-more a {
+    color:#173e9e;
+    font-weight:bold;
+}
+.tintuc-wrap .more-tintuc .item {
+    padding:5px 0;
+}
+.tintuc-wrap .more-tintuc .item img{
+    width:70px;
+    display:inline-block;
+    vertical-align:top;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+.tintuc-wrap .more-tintuc .item a {
+    color:#1b1b1b;
+    transition:all 0.5s ease;
+}
+.tintuc-wrap .more-tintuc .item a:hover {
+    color:red;
+    text-decoration:none;
+}
+.tintuc-wrap .more-tintuc .item p {
+    display:inline-block;
+    margin-bottom:0;
+    width:calc(100% - 75px);
+    padding-left:15px;
+    vertical-align:top;
+}
+.tintuc-wrap .bot-wrap {
+    border-top:1px dotted #ccc;
+    margin-top:15px;
+    padding-top:15px;
+}
+.tintuc-wrap .bot-wrap .item{
+    width:50%;
+    float:left;
+    padding:10px 15px;
+}
+.tintuc-wrap .bot-wrap .item .img {
+    width:150px;
+    display:inline-block;
+    vertical-align:top;
+}
+.tintuc-wrap .bot-wrap .item .img img {
+    max-width:100%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    display:block;
+    margin:0 auto;
+}
+.tintuc-wrap .bot-wrap .item .content {
+    width:calc(100% - 154px);
+    padding-left:15px;  
+    display:inline-block;
+    vertical-align:top;
+}
+.tintuc-wrap .bot-wrap .item  .content > a{
+    color:#1b1b1b;
+    transition:all 0.5s ease;
+    font-size:16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:5px 0;
+}
+.tintuc-wrap .bot-wrap .item  > a:hover {
+    color:red;
+}
+.tintuc-wrap .bot-wrap .item  .read-more a {
+    color:#173e9e;
+    font-weight:bold;
+}

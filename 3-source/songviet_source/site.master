@@ -104,6 +104,8 @@
                                 <li><a href="~/" runat="server">Trang chủ</a></li>
                                 <li><a href="san-pham.aspx">Sản phẩm</a></li>
                                 <li><a href="du-an.aspx">Dự án</a> </li>
+                                <li><a href="dich-vu.aspx">Dịch vụ</a></li>
+                                <li><a href="tin-tuc.aspx">Tin tức</a></li>
                                 <li><a href="tuyen-dung.aspx">Tuyển dụng</a></li>
                                 <li><a href="lien-he.aspx">Liên hệ</a></li>
                             </ul>
