@@ -765,6 +765,7 @@ body .mobilep-right {
 .list-address {
     padding:0;
     margin:0;
+    min-width: 200px;
 }
     .list-address > li {
         list-style:none;
@@ -781,6 +782,10 @@ body .mobilep-right {
       line-height: 20px;
       position: absolute;
       top: 4px;
+    }
+
+    .list-address.hit > li{
+        padding: 0;
     }
 
 /*===============*/
